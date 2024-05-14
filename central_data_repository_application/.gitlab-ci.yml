@@ -1,0 +1,6 @@
+deploy_step:
+  stage: deploy
+  script:
+    - echo "Starting deployment..."
+    - docker-compose down
+    - docker-compose up --build -d
