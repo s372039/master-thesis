@@ -1,0 +1,5 @@
+[core]
+    remote = dvc_remote_server
+['remote "dvc_remote_server"']
+    url = ${REMOTE_STORAGE_URL}
+    
